@@ -11,10 +11,10 @@ from ..common_config import ENV_FILE
 
 def config_gen():
   # ASK FOR CREDENTIALS
-  CLIENT_ID = input('please input your account client id :')
-  CLIENT_SECRET = input('please input your account client secret :')
-  PASSWORD = input('please input your account password :')
-  USERNAME = input('please input your account username :')
+  CLIENT_ID = input('63N10qYkLcYpF2J031UzLg :')
+  CLIENT_SECRET = input('Sd8XwV4meL1A62VnQj3bCvpahhwTRg :')
+  PASSWORD = input('X_97w-_ZTatD_Rt :')
+  USERNAME = input('xqb2hf@gmail.com :')
 
   reddit = praw.Reddit(
       client_id=CLIENT_ID,
